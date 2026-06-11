@@ -2,7 +2,7 @@
   "name": "我的記帳本",
   "short_name": "記帳本",
   "description": "簡單好用的個人記帳 App",
-  "start_url": "./me.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#4f46e5",

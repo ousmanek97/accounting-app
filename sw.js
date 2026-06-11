@@ -1,6 +1,6 @@
 const CACHE_NAME = 'accounting-app-v1';
 const ASSETS = [
-  './me.html',
+  './index.html',
   './manifest.json',
   './icon-192.png',
   './icon-512.png',
@@ -34,7 +34,7 @@ self.addEventListener('fetch', event => {
         const clone = response.clone();
         caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
         return response;
-      }).catch(() => caches.match('./me.html'));
+      }).catch(() => caches.match('./index.html'));
     })
   );
 });
