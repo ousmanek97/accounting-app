@@ -1,0 +1,17 @@
+# Playwright MCP 產生的截圖與快照
+.playwright-mcp/
+
+# macOS 系統檔
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 編輯器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 環境變數
+.env
+.env.local
